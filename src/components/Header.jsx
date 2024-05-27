@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
   return (
-    <header className="flex flex-col items-center mt-8 mb-8 md:mb-16">
+    <header className="flex flex-col items-center mb-8 md:mb-12">
       <img
         src={logo}
         alt="A canvas"
@@ -11,7 +11,9 @@ export default function Header() {
       <h1 className="text-2xl md:text-4xl font-semibold tracking-widest text-center uppercase text-amber-800 font-title">
         ReactArt
       </h1>
-      <p className="text-stone-600">A community of artists and art-lovers.</p>
+      <p className="text-stone-600 text-center">
+        A community of artists and art-lovers.
+      </p>
     </header>
   );
 }
